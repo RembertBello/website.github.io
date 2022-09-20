@@ -1,0 +1,48 @@
+.btn-wsp,
+.btn-up{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 10rem;
+    right: 0.5rem;
+    background-color:  #5abd56;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.5rem;
+    box-shadow: 0 1px 10px rgba(225, 225, 225, 0.3);
+    z-index: 100;
+    transition: all .5s;
+    margin: 0 auto;
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color:  #5abd56;
+    background-color: #fff;
+    transition: all .5s;
+}
+
+.btn-up{
+    bottom: 5rem;
+    background-color: var(--third-color);
+    font-size: 2em;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn-up:hover{
+    transition: 1s;
+    text-decoration: none;
+    color:  var(--third-color);
+    background-color: var(--primary-color);
+}
+
+.btn-up:active{
+    transform: translateY(-5rem);
+
+}

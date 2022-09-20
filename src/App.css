@@ -1,0 +1,55 @@
+:root{
+  --primary-color: #040404;
+  --secondary-color:#ffffff;
+  --description-color: #7c7c7c;
+  --third-color: #4145e9;
+}
+.App {
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 120em;
+  color: var(--secondary-color);
+}
+
+/* =============================================================
+==========================GENERALS RULES==========================
+==============================================================*/
+
+
+/* ==================Header================== */
+
+.ul__li{
+  list-style: none;
+  text-align: center;
+}
+
+.a--link{
+  margin: 0 0.5em 0 0.5em;
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: .5s ease;
+}
+
+.a--link:hover{
+  color: var(--third-color);
+  transition: .5s ease;
+}
+
+/* ==================Main and Section================== */
+
+.div{
+  padding: 1em;
+  width: 100%;
+}
+
+.title {
+  height: auto;
+}
+
+.description {
+  text-align: center;
+  line-height: 1.5;
+  height: auto;
+}

@@ -1,0 +1,176 @@
+.section {
+    width: 100%;
+    margin: 0 auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+/* ==================Section Choose================== */
+
+.section--choose,
+.div__section--offer,
+.section__div--references {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img--choose,
+.img--offer {
+    height: 4rem;
+    width: auto;
+}
+
+.div__section--choose,
+.div__section--offer {
+    width: 25%;
+    margin: 1rem;
+    padding: 1em;
+    border-radius: .5em;
+    background-color: #323434;
+}
+
+.sub-title3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* ======================Section Offer====================== */
+.section--offer {
+    height: 50vh;
+}
+
+.div__section--offer {
+    background-color: transparent;
+    border: 1px solid;
+    transition: .5s ease;
+}
+
+.div__section--offer:hover {
+    background-color: #323434;
+    transform: translateY(-1rem);
+    transition: .5s ease;
+}
+
+
+.div__img--offer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img--offer {
+    margin: 0 auto;
+}
+
+
+/* ============Zona convencer y botón============ */
+.section--convencer {
+    display: flex;
+    justify-content: center;
+}
+
+.div__section--convencer {
+    height: 75%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    background-color: #323434;
+    border-radius: 1rem;
+}
+
+.div__section--convener--img {
+    width: 70%;
+    height: 100%;
+}
+
+.img--convener {
+    width: 100%;
+    height: 100%;
+}
+
+.div__section__button--convencer {
+    height: 100%;
+    margin-top: 3rem;
+}
+
+.section__button--convencer {
+    padding: 1.5em;
+}
+
+/* ================Section comment================ */
+.section--comment {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.div__section__subtitle--comment {
+    width: 100%;
+}
+
+/* .section__div--references está en la línea 13 */
+.section__div--references {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.div__section--comment {
+    background-color: #323434;
+    width: 24%;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.img--comment {
+    height: 5rem;
+    width: auto;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-bottom: 1rem;
+}
+
+/*===================================================
+ =====================Responsive===================== 
+ ===================================================*/
+
+@media screen and (max-width: 800px) {
+    .section {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .div__section--choose,
+    .div__section--offer,
+    .div__section--convencer,
+    .div__section__subtitle--comment,
+    .section__div--references  {
+        width: 95%;
+    }
+
+    .div__section--choose {
+        margin: 1em 0 0 0;
+    }
+
+    .div__section--convencer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .div__section__subtitle--comment {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .div__section--comment {
+        width: 100%;
+        margin: .5em 0 .5em 0;
+
+    }
+}
